@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control led"/>
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/on_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on"/>
+
+
+        <Button
+            android:id="@+id/off_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="off"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bufferin"
+        android:layout_marginTop="45dp"
+        android:text="datos:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="45dp"
+        android:id="@+id/desconect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="desconectar"/>
+
+</LinearLayout>
